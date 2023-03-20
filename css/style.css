@@ -17,7 +17,6 @@ body {
   -webkit-box-flex: 1;
       -ms-flex: 1;
           flex: 1;
-  background: red;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
