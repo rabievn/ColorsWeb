@@ -1,0 +1,46 @@
+$font: 'Roboto', sans-serif;
+$wh: #fff;
+
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    font-family: $font;
+}
+.col {
+    flex: 1;
+    background: red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    h2 {
+        padding: 10px;
+        color: $wh;
+        border-radius: 10px;
+        transition: background 0.3s;
+        &:hover{
+        background: rgba(0,0,0,0.1);
+        cursor: pointer;
+        }
+    }
+    button {
+        border: none;
+        background: transparent;
+        font-size: 1.5rem;
+        color: $wh;
+        padding: 10px;
+        border-radius: 10px;
+        &:hover {
+            background: rgba(0,0,0,0.1);
+            cursor: pointer;
+        }
+    }
+    
+}
